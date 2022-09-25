@@ -10,6 +10,6 @@ cd sentence-transformer
 #sudo apt install libtorch-dev
 
 cd deps/torch
-git submodule update --init --recursive --jobs 0
-
+git submodule update --init --recursive
+python setup.py install
 ```
