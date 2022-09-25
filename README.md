@@ -9,7 +9,7 @@ cd sentence-transformer
 
 #sudo apt install libtorch-dev
 
-cd libs/torch
+cd deps/torch
 git submodule update --init --recursive --jobs 0
 
 ```
